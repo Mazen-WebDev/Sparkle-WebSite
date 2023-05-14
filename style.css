@@ -54,30 +54,6 @@ body {
 
 /* END GLOBAL RULES */
 
-/* A n g l e U p */
-.angleup {
-    width: 30px;
-    background-color: yellow;
-    padding: 6px;
-    border-radius: 4px;
-    cursor: pointer;
-    position: fixed;
-    right: -30px;
-    bottom: 30px;
-    z-index: 999999999;
-    transition: .3s;
-}
-
-.angleup.show {
-    right: 25px;
-}
-
-.angleup:hover {
-    background-color: rgb(255, 255, 117);
-}
-
-/* A n g l e U p */
-
 /* START HEADER */
 .header {
     padding: 20px;
