@@ -869,10 +869,16 @@ body {
     font-weight: normal;
 }
 
-.footer-section .container .footer-main .contactus .links-logo i {
-    font-size: 30px;
-    color: white;
-    margin-left: 15px;
+.footer-section .container .footer-main .contactus .links-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section .container .footer-main .contactus .links-logo img {
+    width: 30px;
+    background-color: white;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 /* END FOOTER-SECTION */
