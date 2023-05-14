@@ -198,6 +198,14 @@ body {
     font-size: small;
 }
 
+@media(max-width: 767px) {
+
+    .landing .landing-section .text h1,
+    .landing .landing-section .text p {
+        font-size: 16px;
+    }
+}
+
 .landing .landing-section .button {
     margin-top: 40px;
 }
