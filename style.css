@@ -879,6 +879,7 @@ body {
     background-color: white;
     margin-left: 4px;
     margin-right: 4px;
+    border-radius: 50%;
 }
 
 /* END FOOTER-SECTION */
