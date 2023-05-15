@@ -9,7 +9,7 @@ window.onscroll = function () {
     this.scrollY >= 1000 ? angleUp.classList.add("show") : angleUp.classList.remove("show");
 }
 
-window.onclick = function () {
+angleUp.onclick = function () {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
