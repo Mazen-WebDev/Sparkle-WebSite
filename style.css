@@ -353,6 +353,7 @@ body {
 }
 
 .box2 .prog {
+    position: relative;
     background-color: #ccc;
     height: 6px;
     width: 90%;
@@ -361,11 +362,15 @@ body {
 }
 
 .box2 span {
+    position: absolute;
+    left: 0;
+    top: 0;
     display: block;
     position: relative;
     background-color: #ffe600;
     height: 100%;
     border-radius: 30px;
+    transition: width .5s linear;
 }
 
 .services .container .small-box {
